@@ -32,7 +32,7 @@ public class ContaTerminal {
             }
         }
 
-        String saldo = "R$237,48";
+        float saldo = 237.48f;
 
         System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %s e seu saldo %s já está disponível para saque.\n", 
         name, agency, number, saldo);
